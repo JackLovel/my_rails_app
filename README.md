@@ -14,4 +14,8 @@ $ rails s
 // 开启 jit 
 $ ruby --jit bin/rails s
 ```
-
+## 生成镜像
+```
+$ cd my_rails_app
+$ docker build -t app:1.0 .
+```
